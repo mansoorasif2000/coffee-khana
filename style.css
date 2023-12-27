@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Nunito', sans-serif; */
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    /* transition: all .2s linear; */
+}
+
+.btn {
+    display: inline-block;
+    padding: .4rem 1.5rem;
+    color: #000;
+    border-radius: 16px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    cursor: pointer;
+    font-size: 1.2rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    margin-top: .8rem;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    background: linear-gradient(90deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.20) 87.45%);
+    padding: 1.2rem 6%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    color: #F9C06A;
+    font-family: Clicker Script;
+
+}
+
+header .navbar a {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    color: #ffffff;
+}
+
+header .navbar a:hover {
+    color: yellow
+}
+
+header .side a {
+    font-size: 1.1rem;
+    margin-left: 2rem;
+    color: #F9C06A;
+
+}
+
+.home {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    background: url(images/coffee_image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.home .content {
+    flex-direction: 1 1 40rem;
+    padding-top: 6rem;
+    color: white;
+
+}
+
+.home .content h1 {
+    font-size: 7rem;
+    font-weight: lighter;
+    color: #fff;
+    /* padding: 0 3rem; */
+    font-family: Clicker Script;
+    /* font-style: italic; */
+}
+
+.home .content h3 {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: initial;
+    margin-top: 40px;
+    /* padding: 0 3rem; */
+}
+
+.home .content p {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    width: 50%;
+    /* padding: 1rem 3.5rem; */
+}
+
+/* ******************************************* */
+.main {
+    background: #FFFEFC;
+    ;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+}
+
+.main .text h2 {
+    color: #603809;
+    font-family: Playfair Display;
+    margin-top: 7rem;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main .text p {
+    margin-top: 1.7rem;
+    color: #707070;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+/* ******************************* */
+.main-1 {
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.main-1 .image img {
+    position: absolute;
+    left: 0;
+    top: -170px;
+    bottom: 80px;
+    z-index: 0;
+}
+
+.main-1 .text h2 {
+    color: #603809;
+    font-family: Playfair Display;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.main-1 .text p {
+    color: #707070;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.box-container {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+
+}
+
+.box-container .box {
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+    position: relative;
+    height: 290px;
+
+}
+
+.box-container .box img {
+    width: 100%;
+}
+
+.box-container .box .content h4 {
+    color: #603809;
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+    text-align: center;
+}
+
+.box-container .box .content p {
+    color: var(--coffee, #b16814);
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.box-container .box .content .btn {
+    align-items: center;
+    display: block;
+    margin: auto;
+    width: 140px;
+    text-align: center;
+    position: absolute;
+    /* z-index: 0; */
+    bottom: -15px;
+    left: 60px;
+}
+
+.main-2 {
+    /* border: 1px solid black; */
+    margin-top: 3.5rem;
+    position: relative;
+    background: #FFFEFC;
+}
+
+.main-2 .image img {
+    position: absolute;
+    right: 0;
+    top: -90px;
+    /* bottom: 80px; */
+    z-index: 0;
+}
+
+.main-2 .text h2 {
+    color: #603809;
+    font-family: Playfair Display;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-top: 1.3rem;
+}
+
+.main-2 .text p {
+    color: #707070;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.main-2 .box-cont {
+    margin-top: 2.7rem;
+
+}
+
+.main-2 .box-cont .box {
+    height: 195px;
+    width: 193px;
+    background: #FFEED8;
+
+}
+
+.main-2 .box-cont .bx {
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+}
+
+.main-2 .box-cont .box img {
+    width: 38%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.main-2 .box-cont .box h4 {
+    padding: .8rem .3rem;
+    font-weight: 600;
+}
+
+.main-2 .box-cont .box p {
+    color: #707070;
+    text-align: center;
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: lighter;
+    padding: 0 .6rem;
+}
+
+.main-2 .texts {
+    /* border: 1px solid black; */
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.main-2 .texts p {
+    color: #707070;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-2 .texts h3 {
+    color: var(--coffee, #603809);
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: none;
+}
+
+.main-2 .texts .btn {
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    color: #1E1E1E;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.coffee::before {
+
+    content: "";
+    background: url('images/Rectangle\ 14.png') center/cover;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    flex-shrink: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.coffee {
+    position: relative;
+    z-index: 1;
+    /* Place the text above the background */
+    padding: 20px;
+    display: flex;
+}
+
+.coffee .text {
+    padding: 4rem 1rem;
+
+}
+
+.coffee .text h2 {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 60%;
+
+}
+
+.coffee .text p {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    /* 170% */
+    width: 50%;
+}
+
+.coffee .text .btn {
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+}
+
+.coffee .cupimage img {
+    position: absolute;
+    right: 80px;
+    top: 7px;
+    height: 360px;
+}
+
+.coffee .beanimg img {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    width: 25%;
+    z-index: -1;
+
+}
+
+.feedback {
+    /* border: 1px solid black; */
+    background: #FFFEFC;
+    text-align: center;
+}
+
+.feedback h2 {
+    color: var(--coffee, #603809);
+    font-family: Playfair Display;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: none;
+}
+
+.feedback p {
+    color: #707070;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    text-transform: none;
+}
+
+.feedback .feed {
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+}
+
+.feedback .feed .customer {
+    width: 100%;
+    height: auto;
+    /* padding: 1rem 1rem; */
+}
+
+.feedback .feed .customer img {
+    width: 100%;
+}
+.feedback .feed .content p{
+    font-size: 15px;
+    font-weight:normal;
+    font-family: nunito;
+}
+
+.footer::before {
+
+    content: "";
+    /* background: url('images/Rectangle\ 14.png') center/cover; */
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    flex-shrink: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer {
+    position: relative;
+    z-index: 1;
+    /* Place the text above the background */
+    padding: 20px;
+    text-align: center;
+    background: #603809;
+
+}
+.footer .picone{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+}
+.footer .pictwo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15%;
+
+}
+
+.footer h2 {
+    /* color: #603809; */
+    color: #fff;
+
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: none;
+    background: #603809;
+    opacity: .9;
+    display: inline-block;
+}
+
+.footer p {
+    color: #FFF;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+    /* 170% */
+    text-transform: none;
+    /* background: #603809; */
+    opacity: .9;
+
+}
+
+.form {
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input {
+    width: 50%;
+    padding: 1rem 1rem;
+    /* border-radius: 4px; */
+    border: 1px solid rgba(249, 192, 106, 0.42);
+    background: #FFF9F1;
+    margin: 0;
+}
+
+.form .btn1 {
+    display: inline-block;
+    padding: .9rem 1rem;
+    color: #000;
+    background: #F9C06A;
+    border-radius: 0 2px 0 0;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 0;
+    margin: 0;
+    color: var(--coffee, #603809);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.form input::placeholder {
+    color: rgba(0, 0, 0, 0.44);
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    /* line-height: 34px;  */
+}
+
+.last {
+    display: flex;
+    justify-content: space-;
+    background: #603809;
+    gap: 7rem;
+    padding: 0 2rem;
+}
+
+.last h1 {
+    color:#F9C06A;
+    font-family:Clicker Script;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 2.7rem;
+}
+
+.last h2 {
+    color: #e8e6e6;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2rem;
+}
+
+.last p {
+    color: #FFF;
+    /* font-family: Playfair Display; */
+    font-family:nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    width: 70%;
+    margin-top: 1.5rem;
+}
+
+.last ul li {
+    list-style-type: none;
+    font-family: monospace;
+
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 42px;
+    text-transform: lowercase;
+    /* 233.333% */
+}
