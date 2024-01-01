@@ -1,0 +1,754 @@
+@media(max-width:947px) {
+    #menu-bar {
+        display: initial;
+        font-size: 1.3rem;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: linear-gradient(90deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.20) 87.45%);
+
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+    }
+
+    header .navbar a {
+        margin: 1.5rem;
+        padding: .7rem;
+        border-radius: 4px;
+        display: block;
+        font-weight: 700;
+        border: .2rem solid rgba(0, 0, 0, .1);
+        color: #ffffff;
+
+    }
+
+}
+
+@media(max-width:474px) {
+    .home {
+        width: 100%;
+    }
+}
+
+@media(max-width:474px) {
+    #menu-bar {
+        display: initial;
+        font-size: 1.3rem;
+        margin-left: .21rem;
+    }
+
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+
+        background: linear-gradient(90deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.20) 87.45%);
+
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+    }
+
+    header .navbar a {
+        margin: 1.5rem;
+        padding: .7rem;
+        display: block;
+        font-weight: 700;
+        border: .2rem solid rgba(0, 0, 0, .1);
+        border-radius: 4px;
+
+    }
+
+    header .side a {
+        font-size: 1rem;
+        color: #F9C06A;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+}
+
+@media(max-width:461px) {
+    header .side a {
+        font-size: .8rem;
+    }
+}
+
+@media(max-width:433px) {
+    header .side a {
+        font-size: .7rem;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width:420px) {
+
+    header .side a {
+        font-size: .6rem;
+    }
+
+}
+
+@media(max-width:375px) {
+    header .side a {
+        font-size: .8rem;
+    }
+
+    .main-1 .image img {
+        width: 100%;
+    }
+
+    .btn {
+        padding: 1rem;
+        border-radius: 6px;
+    }
+
+
+
+
+}
+
+@media(max-width:810px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .main .text p {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:521px) {
+    .main .text {
+        text-align: center;
+
+    }
+
+    .main .image img {
+        width: 100%;
+
+    }
+}
+
+@media (max-width:1200px) {
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 50px;
+    }
+}
+
+@media (max-width:1066px) {
+    .box-container .box {
+        height: 230px;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 38px;
+    }
+
+    .main-2 .text {
+        margin-top: 5rem;
+    }
+
+}
+
+@media (max-width:1055px) {
+    .coffee .cupimage img {
+        position: absolute;
+        right: 30px;
+
+
+    }
+
+    .coffee .beanimg img {
+        position: absolute;
+        top: 77px;
+
+
+    }
+
+}
+
+@media (max-width:987px) {
+    .box-container .box {
+        height: 230px;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 25px;
+    }
+
+    .coffee {
+
+        .cupimage img {
+            position: absolute;
+            right: 7px;
+            top: 7px;
+
+        }
+
+        .beanimg img {
+            position: absolute;
+            top: 96px;
+            right: 0px;
+
+        }
+    }
+}
+
+@media (max-width:938px) {
+    .coffee .cupimage img {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+
+
+    }
+
+    .coffee .beanimg img {
+        position: absolute;
+        top: 164px;
+        ;
+
+
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+    .cards {
+        max-width: calc(50% - 10px);
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .cards {
+        max-width: calc(30.33% - 10px);
+    }
+}
+
+@media (max-width:890px) {
+
+    .box-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .box-container .box {
+        height: 700px;
+        width: 100%;
+    }
+
+    .box-container .box .content h4 {
+        font-size: 2rem;
+    }
+
+    .box-container .box .content p {
+        font-size: 1.5rem;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 290px;
+
+    }
+
+    .main-2 .box-cont .box {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-2 .text {
+        margin-top: 6rem;
+    }
+
+    .coffee {
+
+        .cupimage img {
+            position: absolute;
+            right: 40px;
+            top: 26px;
+
+        }
+
+        .beanimg img {
+            position: absolute;
+            top: 177px;
+            right: 0px;
+
+        }
+    }
+
+
+}
+
+@media (max-width:825px) {
+    .coffee .cupimage img {
+        position: absolute;
+        right: 40px;
+        top: 60px;
+
+
+    }
+
+    .coffee .beanimg img {
+        position: absolute;
+        top: 225px;
+        ;
+
+
+    }
+
+}
+
+@media (max-width:800px) {
+
+    .box-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .box-container .box {
+        height: 650px;
+        width: 100%;
+    }
+
+    .box-container .box .content h4 {
+        font-size: 2rem;
+    }
+
+    .box-container .box .content p {
+        font-size: 1.5rem;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 250px;
+
+    }
+
+    .footer h2 {
+        font-size: 3rem;
+    }
+
+    .last {
+        flex-direction: column;
+        padding: 1rem;
+        gap: .6rem;
+    }
+
+    .last .about h2,
+    .comp h2,
+    .contact h2 {
+        width: 100%;
+        font-size: 2rem;
+        font-family: nunito;
+    }
+
+
+}
+
+@media (max-width:763px) {
+    .coffee .cupimage img {
+        position: absolute;
+        right: 40px;
+        top: 120px;
+
+
+    }
+
+    .coffee .beanimg img {
+        position: absolute;
+        top: 296px;
+        ;
+
+
+    }
+
+}
+
+@media (max-width:750px) {
+
+    .box-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .box-container .box {
+        height: 600px;
+        width: 100%;
+    }
+
+    .box-container .box .content h4 {
+        font-size: 2rem;
+    }
+
+    .box-container .box .content p {
+        font-size: 1.5rem;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 240px;
+
+    }
+}
+
+@media (max-width:670px) {
+
+    .box-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .box-container .box {
+        height: 560px;
+        width: 100%;
+    }
+
+    .box-container .box .content h4 {
+        font-size: 2rem;
+    }
+
+    .box-container .box .content p {
+        font-size: 1.5rem;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 210px;
+
+    }
+}
+
+@media (max-width:600px) {
+
+    .box-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .box-container .box {
+        height: 520px;
+        width: 100%;
+    }
+
+    .box-container .box .content h4 {
+        font-size: 2rem;
+    }
+
+    .box-container .box .content p {
+        font-size: 1.5rem;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 175px;
+
+    }
+
+    .coffee .cupimage img {
+        position: absolute;
+        right: 2rem;
+        top: 8rem;
+
+
+    }
+
+    .coffee .beanimg img {
+        position: absolute;
+        top: 340px;
+        ;
+
+
+    }
+}
+
+@media (max-width:598px) {
+    .coffee .cupimage img {
+        position: absolute;
+        right: 40px;
+        top: 200px;
+
+
+    }
+
+    .coffee .beanimg img {
+        position: absolute;
+        top: 426px;
+        ;
+
+
+    }
+
+}
+
+@media (max-width:550px) {
+
+    .box-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .box-container .box {
+        height: 480px;
+        width: 100%;
+    }
+
+    .box-container .box .content h4 {
+        font-size: 2rem;
+    }
+
+    .box-container .box .content p {
+        font-size: 1.5rem;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 165px;
+
+    }
+}
+
+@media (max-width:530px) {
+    .coffee .cupimage img {
+        display: none;
+    }
+
+    .coffee .beanimg img {
+        display: none;
+    }
+
+    .coffee .text h2 {
+        font-size: 2rem;
+        width: 100%;
+        color: black;
+        font-family: nunito;
+        font-weight: 800;
+    }
+
+    .coffee .text p {
+        font-size: 1.5rem;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+}
+
+@media (max-width:480px) {
+
+    .box-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .box-container .box {
+        height: 440px;
+        width: 100%;
+    }
+
+    .box-container .box .content h4 {
+        font-size: 2rem;
+    }
+
+    .box-container .box .content p {
+        font-size: 1.5rem;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 140px;
+
+    }
+}
+
+@media (max-width:415px) {
+
+    .box-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .box-container .box {
+        height: 380px;
+        width: 100%;
+    }
+
+    .box-container .box .content h4 {
+        font-size: 2rem;
+    }
+
+    .box-container .box .content p {
+        font-size: 1.5rem;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 100px;
+
+    }
+}
+
+
+
+
+@media (max-width:375px) {
+
+    .box-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .box-container .box {
+        height: 350px;
+        width: 100%;
+    }
+
+    .box-container .box .content h4 {
+        font-size: 2rem;
+    }
+
+    .box-container .box .content p {
+        font-size: 1.5rem;
+    }
+
+    .box-container .box .content .btn {
+        position: absolute;
+        left: 70px;
+        width: 60%;
+        padding: 1rem;
+        border-radius: 6px;
+
+    }
+
+    .main-2 .image img {
+        width: 100%;
+
+    }
+
+    .main-2 .text {
+        margin-top: 6rem;
+    }
+
+    .main-2 .box-cont .box {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-2 .texts p {
+        font-size: 1rem;
+        line-height: 18px;
+
+    }
+
+    .main-2 .texts h3 {
+        font-size: 2rem;
+    }
+
+    .main-2 .texts .btn {
+        padding: 1rem;
+        border-radius: 6px;
+    }
+
+    .coffee .text h2 {
+        font-size: 2rem;
+        width: 100%;
+        color: black;
+        font-family: nunito;
+        font-weight: 800;
+    }
+
+    .coffee .text p {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .coffee .text span {
+        color: black;
+        font-weight: bolder;
+    }
+
+
+
+    .cupimage img {
+        position: absolute;
+        width: 50%;
+        right: 0;
+        top: 20px;
+        display: none;
+
+
+    }
+
+    .beanimg img {
+        position: absolute;
+        top: 200px;
+        display: none;
+
+
+    }
+
+    .coffee .text .btn {
+        padding: 1rem;
+        border-radius: 6px;
+    }
+
+    .footer h2 {
+        font-size: 2rem;
+        background: none;
+    }
+
+    .footer p {
+        font-size: 1rem;
+        background: none;
+        line-height: 20px;
+        margin-top: .9rem;
+    }
+
+    .footer .form {
+        margin-top: .9rem;
+    }
+
+    .footer input {
+        width: 75%;
+    }
+
+
+    .last {
+        flex-direction: column;
+        padding: 1rem;
+        gap: .6rem;
+    }
+
+    .last .about h2,
+    .comp h2,
+    .contact h2 {
+        width: 100%;
+        font-size: 2rem;
+        font-family: nunito;
+    }
+    .last .foothead p{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
